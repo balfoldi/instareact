@@ -14,12 +14,12 @@ import Signup from './pages/Signup'
 import Login from './pages/Login'
 import Navbar from './components/Navbar'
 
+
 const App = () => {
 	return (
 		<Router>
 			<div>
 				<Navbar />
-
 				<Switch>
 					<Route path="/posts">
 						<Posts />
